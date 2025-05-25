@@ -24,7 +24,7 @@ git push heroku main
 
 
 ```bash
-curl -X POST https://bank-customer-churn-a4461a9d7ebe.herokuapp.com/predict \
+curl -X POST https://bank-customer-churn-1837dedb6265.herokuapp.com/predict \
 -H "Content-Type: application/json" \
 -d '{
     "CreditScore": 750,
